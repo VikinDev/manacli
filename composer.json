@@ -1,0 +1,22 @@
+{
+  "name": "manaphp/manacli",
+  "description": "The ManaCli Framework",
+  "keywords": [
+    "manacli",
+    "framework",
+    "di"
+  ],
+  "homepage": "https://github.com/manaphp/manacli",
+  "authors": [
+    {
+      "name": "ManaPHP Mark",
+      "email": "manaphp@qq.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "ManaPHP\\": "ManaPHP/"
+    }
+  },
+  "minimum-stability": "dev"
+}

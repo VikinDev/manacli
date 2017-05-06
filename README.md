@@ -9,7 +9,7 @@ ManaCli is only supported on PHP 5.4+. ManaCli has been tested on Windows and Li
 Installation
 ------------
 
-The best way to install ManaPHP is to download the ManaCli from [github](https://github.com/manaphp/manacli).
+The best way to install ManaCli is to download from [github](https://github.com/manaphp/manacli).
 
 ##增加命令
 ###创建控制器

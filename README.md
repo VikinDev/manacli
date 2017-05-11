@@ -11,11 +11,14 @@ Installation
 
 The best way to install ManaCli is to download from [github](https://github.com/manaphp/manacli).
 
-##增加命令
-###创建控制器
+## 增加命令
+
+### 创建控制器
+
 我们以创建一个维护时间显示的命令为例
 
 在`@app/Cli/Controllers`目录下创建`TimeController.php`控制器,代码如下：
+
 ```php
 <?php
 namespace Application\Cli\Controllers;
@@ -42,8 +45,11 @@ class TimeController extends Controller
     }
 }
 ```
+
 ## 命令
-###查看命令列表
+
+### 查看命令列表
+
 ```bash
 D:\wamp\www\manacli>manacli
 executed command is `help:list`
@@ -51,7 +57,9 @@ help  list all commands
 test  demo for cli write
 time  show current time
 ```
-###执行命令
+
+### 执行命令
+
 ```bash
 D:\wamp\www\manacli>manacli time
 executed command is `time:default`
@@ -77,5 +85,4 @@ executed command is `time:default`
     "time": "2017-05-06 21:44:21",
     "timestamp": 1494078261
 }
-```language
 ```
